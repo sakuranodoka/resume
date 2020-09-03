@@ -10,6 +10,13 @@ Vue.use(VueRouter)
     name: 'Home',
     component: Home
   },
+
+  {
+    path: '/experiance',
+    name: 'Experiance',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Experiance.vue')
+  },
+
   {
     path: '/about',
     name: 'About',
