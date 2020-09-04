@@ -12,9 +12,15 @@ Vue.use(VueRouter)
   },
 
   {
-    path: '/experiance',
-    name: 'Experiance',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Experiance.vue')
+    path: '/experiance/ca',
+    name: 'ca',
+    component: () => import(/* webpackChunkName: "about" */ '../views/experiance/Ca.vue')
+  },
+
+  {
+    path: '/experiance/imi',
+    name: 'imi',
+    component: () => import(/* webpackChunkName: "about" */ '../views/experiance/Imi.vue')
   },
 
   {

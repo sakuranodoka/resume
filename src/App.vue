@@ -11,20 +11,21 @@
 <style>
     @font-face {
         font-family: "EkkamaiNewRegular";
-        src: url('../assets/fonts/EkkamaiNew-Regular.ttf');
+        src: url('./assets/fonts/EkkamaiNew-Regular.ttf');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: "LatoLight";
-        src: url('../assets/fonts/Lato-Light.ttf');
+        src: url('./assets/fonts/Lato-Light.ttf');
         font-weight: normal;
         font-style: normal;
     }
 
     html, #app { 
-        background: #fff;
+        /* background: #fff; */
+        background : #f8f8fb;
     }
 
     #app {

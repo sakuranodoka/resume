@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     
-        <b-card  class="" style="height: 1000px; border:0px dashed lightgray;">
+        <b-card style="height: 100%; border:0px dashed lightgray;">
             <b-container fluid>
-                <b-row>
-                    <b-col md="4" style="background: #2a3042; text-align:left; height:900px;">
-                        <Side></Side>
+                <b-row style="background:#f8f8f8;">
+                    <b-col md="4" style="background: #2a3042; text-align:left; height:1500px;" >
+                        <Side style="margin-top:100px;"></Side>
                     </b-col>
-                    <b-col class="" style="background: #f8f8fb">
+                    <b-col class="" style="margin-top:100px;background: #f8f8fb">
                         <b-card class="text-left pt-2 pb-2 pl-3 pr-3 mt-3 shadow-sm" style="border:none;">
                             <h4><b-icon class="mr-3" icon="person-fill"></b-icon>ข้อมูลเบื้องต้น</h4>
                             <div style="border-top:1px dashed lightgray;" class="pt-2">
@@ -91,6 +91,19 @@
                                 </b-row>
                             </div>
                         </b-card>
+
+                        <b-card class="text-left pt-2 pb-2 pl-3 pr-3 mt-3 shadow-sm" style="border:none;">
+                            <h4><b-icon class="mr-3" icon="music-note"></b-icon>งานอดิเรก</h4>
+                            <div style="border-top:1px dashed lightgray;" class="pt-2">
+                                <p>1. ในเวลาว่างๆ ชอบอ่านฟิสิกส์ และดาราศาสตร์ มีความสนใจในศาสตร์เกี่ยวกับเอกภพ เวลา ธาตุกัมมันตรังสี และไฟฟ้า</p>
+                                <p>2. เรียนรู้และพัฒนา IOT ในเวลาว่าง ศึกษาวงจรไฟฟ้า ซึ่งในอนาคตมีแผนที่จะพัฒนาอุปกรณ์ IOT ขึ้นมา</p>
+
+                                <b-img class="shadow mt-2" left :src="require(`@/assets/images/hobbit/pic1.jpg`)" style="width:200px;" />
+
+                                <b-img class="shadow mt-2 ml-3" top left :src="require(`@/assets/images/hobbit/pic2.jpg`)" style="width:356px;" />
+
+                            </div>
+                        </b-card>
                     </b-col>
                 </b-row>
             </b-container>
@@ -115,7 +128,7 @@ export default {
 
 <style scoped>
     .home {
-        max-width: 1250px;
+        max-width: 1050px;
         margin: 0 auto;
 
         /* font-family: "EkkamaiNewRegular" !important; */

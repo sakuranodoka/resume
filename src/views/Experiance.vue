@@ -113,7 +113,7 @@ export default {
 
 <style scoped>
     .home {
-        max-width: 1250px;
+        max-width: 1050px;
         margin: 0 auto;
 
         /* font-family: "EkkamaiNewRegular" !important; */
