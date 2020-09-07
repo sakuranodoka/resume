@@ -4,10 +4,10 @@
         <b-card style="height: 100%; border:0px dashed lightgray;">
             <b-container fluid>
                 <b-row style="background:#f8f8f8;">
-                    <b-col md="4" style="background: #2a3042; text-align:left; height:1500px;" >
+                    <b-col md="4" style="background: #2a3042; text-align:left; height:1800px;" >
                         <Side style="margin-top:100px;"></Side>
                     </b-col>
-                    <b-col class="" style="margin-top:100px;background: #f8f8fb">
+                    <b-col class="" style="margin-top:2em;background: #f8f8fb">
                         <b-card class="text-left pt-2 pb-2 pl-3 pr-3 mt-3 shadow-sm" style="border:none;">
                             <h4><b-icon class="mr-3" icon="person-fill"></b-icon>ข้อมูลเบื้องต้น</h4>
                             <div style="border-top:1px dashed lightgray;" class="pt-2">

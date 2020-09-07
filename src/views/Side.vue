@@ -1,6 +1,6 @@
 <template>
-    <div class="sidebar text-center">
-        <b-img class="pic shadow" v-bind="mainProps" :src="require(`@/assets/images/pic2.png`)" center rounded="circle" alt="Circle image"></b-img>
+    <div class="sidebar text-center" style="padding-bottom:300px !important;">
+        <b-img class="pic shadow" v-bind="mainProps" :src="require(`@/assets/images/pic4.jpg`)" center rounded="circle" alt="Circle image"></b-img>
 
         <div>
             <b-row>
