@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home mx-auto">
     
         <b-card class="" style="height: 1000px; border:0px dashed lightgray;">
             <b-container fluid>
@@ -31,6 +31,9 @@
                             <b-col md="6">
                                 <b-img class="shadow my-1 left" left :src="require(`@/assets/images/experiance/ca/pic4.png`)" style="width:300px;" />
                                 <small left>กรรมการเลือกผลงานที่จะโหวตจาก Device ของตัวเอง</small>
+
+                                <b-img class="shadow my-1 left" left :src="require(`@/assets/images/experiance/ca/pic7.png`)" style="width:300px;" />
+                                <small left>แต่ละนวัตกรรมสามารถเลือกรูปแบบการโหวตได้</small>
                             </b-col>
                         
                             <b-col md="6">
@@ -39,6 +42,9 @@
                                 
                                 <b-img class="shadow mt-3" :src="require(`@/assets/images/experiance/ca/pic6.png`)" style="width:100%;" />
                                 <small>Administator สามารถดู Report แบบ Realtime ได้</small>
+
+                                <b-img class="shadow mt-3" :src="require(`@/assets/images/experiance/ca/pic9.png`)" style="width:100%;" />
+                                <!-- <small>Administator สามารถ Tracking รายชื่อกรรมการขณะโหวตได้</small> -->
                             </b-col>
                         </b-row>
                         <!-- <br /> -->
@@ -53,6 +59,9 @@
 
                         <b-img class="shadow mt-3" :src="require(`@/assets/images/experiance/ca/pic3.png`)" style="width:100%;" />
                         <small>Administator สามารถ Config ระบบภายในได้ทั้งหมด</small>
+
+                        <b-img class="shadow mt-3" :src="require(`@/assets/images/experiance/ca/pic8.png`)" style="width:100%;" />
+                        <small>Administator สามารถ Tracking รายชื่อกรรมการขณะโหวตได้</small>
                     </b-col>
                 </b-row>
             </b-container>
@@ -75,8 +84,9 @@ export default {
 
 <style scoped>
     .home {
-        max-width: 1050px;
-        margin: 0 auto;
+        max-width: 990px;
+
+        margin-top : 6em;
 
         /* font-family: "EkkamaiNewRegular" !important; */
     }

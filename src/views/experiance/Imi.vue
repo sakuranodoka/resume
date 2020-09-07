@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home mx-auto">
     
         <b-card  class="" style="height: 1000px; border:0px dashed lightgray;">
             <b-container fluid>
