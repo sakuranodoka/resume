@@ -4,10 +4,10 @@
         <b-card style="height: 100%; border:0px dashed lightgray;">
             <b-container fluid>
                 <b-row style="background:#f8f8f8;">
-                    <b-col md="4" style="background: #2a3042; text-align:left; height:1800px;" >
-                        <Side style="margin-top:100px;"></Side>
+                    <b-col md="4" class="b-side" style="background: #2a3042; text-align:left; height:1800px;" >
+                        <Side style="margin-top:50px;"></Side>
                     </b-col>
-                    <b-col class="" style="margin-top:2em;background: #f8f8fb">
+                    <b-col class="mb-3" style="margin-top:2em;background: #f8f8fb">
                         <b-card class="text-left pt-2 pb-2 pl-3 pr-3 mt-3 shadow-sm" style="border:none;">
                             <h4><b-icon class="mr-3" icon="person-fill"></b-icon>ข้อมูลเบื้องต้น</h4>
                             <div style="border-top:1px dashed lightgray;" class="pt-2">
@@ -95,8 +95,8 @@
                         <b-card class="text-left pt-2 pb-2 pl-3 pr-3 mt-3 shadow-sm" style="border:none;">
                             <h4><b-icon class="mr-3" icon="music-note"></b-icon>งานอดิเรก</h4>
                             <div style="border-top:1px dashed lightgray;" class="pt-2">
-                                <p>1. ในเวลาว่างๆ ชอบอ่านฟิสิกส์ และดาราศาสตร์ มีความสนใจในศาสตร์เกี่ยวกับเอกภพ เวลา ธาตุกัมมันตรังสี และไฟฟ้า</p>
-                                <p>2. เรียนรู้และพัฒนา IOT ในเวลาว่าง ศึกษาวงจรไฟฟ้า ซึ่งในอนาคตมีแผนที่จะพัฒนาอุปกรณ์ IOT ขึ้นมา</p>
+                                <p>1. ในเวลาว่างๆ ชอบอ่านฟิสิกส์ และดาราศาสตร์ ชอบอ่านและศึกษาเกี่ยวกับเอกภพ พลังงาน ปริภูมิ-เวลา และไฟฟ้า</p>
+                                <p>2. เรียนรู้และพัฒนา IOT ในเวลาว่าง ศึกษาวงจรไฟฟ้า</p>
 
                                 <b-img class="shadow mt-2" left :src="require(`@/assets/images/hobbit/pic1.jpg`)" style="width:200px;" />
 
@@ -141,5 +141,10 @@ export default {
     .b-progress { 
         border:1px solid steelblue; 
         border-radius:0;
+    }
+
+    .b-side {
+        height: 1800px !important;
+        /* height: auto !important; */
     }
 </style>

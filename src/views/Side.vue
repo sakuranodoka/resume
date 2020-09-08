@@ -1,6 +1,6 @@
 <template>
-    <div class="sidebar text-center" style="padding-bottom:300px !important;">
-        <b-img class="pic shadow" v-bind="mainProps" :src="require(`@/assets/images/pic4.jpg`)" center rounded="circle" alt="Circle image"></b-img>
+    <div class="sidebar text-center">
+        <b-img class="pic shadow" v-bind="mainProps" :src="require(`@/assets/images/pic2.png`)" center rounded="circle" alt="Circle image"></b-img>
 
         <div>
             <b-row>
@@ -19,6 +19,9 @@
 
         <div class="text-left ml-3" style="font-weight:bold; font-size: smaller">
             <dl class="row">
+                <dd class="col-sm-12 text-center" style="font-weight:normal; font-size:larger;">
+                    <div class="text-center">Personal Info</div>
+                </dd>
                 <dt class="col-sm-4 justify-content-center justify-content-md-start d-flex">
                     <span>Email</span>
                 </dt>
@@ -42,14 +45,45 @@
                     <span class="text-white detailed" style="font-size:15px;color:#aaa !important">4 ปี</span>
                 </dd>
 
-                <dt class="col-sm-4 justify-content-center justify-content-md-start d-flex">
+                <dt class="col-sm-6 justify-content-center justify-content-md-start d-flex">
                     <span>Tel</span>
                 </dt>
-                <dd class="col-sm-8" style="text-align:center !important;">
+                <dd class="col-sm-6" style="text-align:center !important;">
                     <span class="text-white detailed">061-8786969</span>
+                </dd>
+
+                <dt class="col-sm-6 justify-content-center justify-content-md-start d-flex">
+                    <span>Date of Birth</span>
+                </dt>
+                <dd class="col-sm-6" style="text-align:center !important;">
+                    <span class="text-white detailed">03/05/1994</span>
                 </dd>
             </dl>
         </div>
+
+        <div style="border-top:1px solid #888" class="mt-4 mb-2 "></div>
+
+        <dl class="row">
+            <dd class="col-sm-12 text-center">
+                <div class="text-center">Interests</div>
+            </dd>
+            <dd class="col-sm-12" style="text-align:center !important; font-size: small">
+                <span class="text-white detailed">Native Cross Platform</span> <br />
+                <span class="text-white detailed">• Flutter (Dart)</span> <br />
+                <span class="text-white detailed">• React Native</span>
+                    <div style="height:15px;width:2px; background:white; margin:0 auto;"></div>
+                    <div style="height:15px;width:2px; background:white; margin:0 auto;"></div>
+                <span class="text-white detailed">Python</span>
+                    <div style="height:15px;width:2px; background:white; margin:0 auto;"></div>
+                    <div style="height:15px;width:2px; background:white; margin:0 auto;"></div>
+                <span class="text-white detailed">Internet of Things</span>
+                    <div style="height:15px;width:2px; background:white; margin:0 auto;"></div>
+                    <div style="height:15px;width:2px; background:white; margin:0 auto;"></div>
+                <span class="text-white detailed">SVG Graphics</span> <br /> <br />
+            </dd>
+        </dl>
+
+
     </div>
 </template>
 

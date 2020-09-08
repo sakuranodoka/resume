@@ -16,6 +16,11 @@ Vue.use(VueRouter)
         component: () => import('@/views/experiance/Experiance.vue'), 
         children: [
             {
+              path : 'optimumarea', 
+              name : 'optimumarea', 
+              component: () => import('@/views/experiance/Optimumarea.vue')
+            },
+            {
                 path : 'ca',
                 name : 'ca',
                 component: () => import('@/views/experiance/Ca.vue')
