@@ -11,26 +11,42 @@ Vue.use(VueRouter)
     component: Home
   },
 
-  {
-    path: '/experiance/ca',
-    name: 'ca',
-    component: () => import(/* webpackChunkName: "about" */ '../views/experiance/Ca.vue')
-  },
+    {
+        path : '/experiance', 
+        component: () => import('@/views/experiance/Experiance.vue'), 
+        children: [
+            {
+                path : 'ca',
+                name : 'ca',
+                component: () => import('@/views/experiance/Ca.vue')
+            }, 
 
-  {
-    path: '/experiance/imi',
-    name: 'imi',
-    component: () => import(/* webpackChunkName: "about" */ '../views/experiance/Imi.vue')
-  },
+            {
+                path: 'imi',
+                name: 'imi',
+                component: () => import('@/views/experiance/Imi.vue')
+            }, 
 
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+            {
+                path: 'pcorder', 
+                name : 'pcorder', 
+                component: () => import('@/views/experiance/Pcorder.vue')
+            }
+        ]
+    }, 
+
+//   {
+//     path: '/experiance/ca',
+//     name: 'ca',
+//     component: () => import(/* webpackChunkName: "about" */ '../views/experiance/Ca.vue')
+//   },
+
+//   {
+//     path: '/experiance/imi',
+//     name: 'imi',
+//     component: () => import(/* webpackChunkName: "about" */ '../views/experiance/Imi.vue')
+//   },
+
 ]
 
 const router = new VueRouter({
