@@ -27,6 +27,12 @@ Vue.use(VueRouter)
             }, 
 
             {
+                path : 'tracking',
+                name : 'tracking',
+                component: () => import('@/views/experiance/Tracking.vue')
+            }, 
+
+            {
                 path: 'imi',
                 name: 'imi',
                 component: () => import('@/views/experiance/Imi.vue')
