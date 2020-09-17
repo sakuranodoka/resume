@@ -1,5 +1,5 @@
 <template>
-    <b-card class="" style="height: 1000px; border:0px dashed lightgray;">
+    <b-card class="" style="border:0px dashed lightgray;">
         <b-container fluid>
             <b-row>
                 <b-col md="7" class="" style="background: #f8f8fb">

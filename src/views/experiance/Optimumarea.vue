@@ -1,5 +1,5 @@
 <template>
-    <b-card class="inside" style="height: 1000px; border:0px dashed lightgray;">
+    <b-card class="inside" style=" border:0px dashed lightgray;">
         <b-container fluid>
             <b-row>
                 <b-col md="12" class="" style="background: #f8f8fb">
@@ -23,19 +23,6 @@
                         </div>
                     </b-card>
 
-                    <!-- <b-row class="mt-3">
-                        <b-col md="4">
-                            <b-img class="shadow mt-3" :src="require(`@/assets/images/experiance/optimumarea/spic2.jpg`)" style="width:100%;" />
-                            <div><small>ระบบสามารถจดจำข้อมูลผู้ขาย/ลูกค้าได้</small></div>
-
-                            <b-img class="shadow my-1 mt-2 left" left :src="require(`@/assets/images/experiance/optimumarea/spic3.jpg`)" style="width:100%;" />
-                            <div><small>ระบบเชื่อมต่อ SKU สินค้ากับราคา และรวมราคาค่าจัดส่งให้</small></div>
-
-                            <b-img class="shadow my-1 mt-2 left" left :src="require(`@/assets/images/experiance/optimumarea/spic4.jpg`)" style="width:100%;" />
-                            <div><small left>ระบบบันทึกข้อมูลธุรกรรมของลูกค้า รองรับการชำระเงินผ่าน Payment Gateway และมี Web Hook ทางด้าน Backend Server</small></div>
-                            <br />
-                        </b-col>
-                    </b-row> -->
                 </b-col>
 
                 <b-col md="12" class="text-center my-2">
@@ -77,11 +64,11 @@
 
         <b-container fluid>
             <b-row>
-                <b-col md="12" class="" style="background: #f8f8fb">
+                <!-- <b-col md="12" class="" style="background: #f8f8fb">
                     <b-card class="text-left pt-2 pb-2 pl-3 pr-3 mt-3 shadow-sm" style="border:none;">
                         <h4><b-icon class="mr-3" icon="trophy"></b-icon>Optimum Area (Continue)</h4>
                     </b-card>
-                </b-col>
+                </b-col> -->
 
                 <b-col md="12" class="text-center my-2">
                     <h4 class="mb-0 font-weight-bold" style="background:none">รายละเอียดข้อมูลประจำร้าน (Desktop or Tablet)</h4>

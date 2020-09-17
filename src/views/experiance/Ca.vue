@@ -1,8 +1,8 @@
 <template>
-    <b-card class="" style="height: 1000px; border:0px dashed lightgray;">
+    <b-card class="" style="border:0px dashed lightgray;">
         <b-container fluid>
             <b-row>
-                <b-col md="8" class="" style="background: #f8f8fb">
+                <b-col   md="8" class="" style="background: #f8f8fb">
                     <b-card class="text-left pt-2 pb-2 pl-3 pr-3 mt-3 shadow-sm" style="border:none;">
                         <h4><b-icon class="mr-3" icon="trophy"></b-icon>ICC Innovation Application</h4>
                         <div style="border-top:1px dashed lightgray;" class="pt-2">

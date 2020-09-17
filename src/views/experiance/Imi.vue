@@ -1,7 +1,7 @@
 <template>
-  <div class="home mx-auto">
+  <!-- <div class="home mx-auto"> -->
     
-        <b-card  class="" style="height: 1000px; border:0px dashed lightgray;">
+        <b-card class="mb-4" style=" border:0px dashed lightgray;">
             <b-container fluid>
                 <b-row>
         
@@ -64,8 +64,8 @@
                 </b-row>
             </b-container>
         </b-card>
-    </b-container>
-  </div>
+    <!-- </b-container>
+  </div> -->
 </template>
 
 <script>
